@@ -8,13 +8,13 @@ spring:
   cloud:
     nacos:
       discovery:
-        server-addr: localhost:8848
+        server-addr: http://106.55.60.108:8848
   data:
     redis:
       database: 0
       port: 6379
-      host: localhost
-      password:
+      host: 106.55.60.108
+      password: cjy888
 
 # Sa-Token配置
 sa-token:
